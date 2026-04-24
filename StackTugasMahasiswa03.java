@@ -62,7 +62,9 @@ public class StackTugasMahasiswa03 {
         }
     }
 
-
+    public int getJumlahTugas() {
+        return top + 1;
+    }
 
     public void print() {
         for (int i = top; i >= 0; i--) { 
