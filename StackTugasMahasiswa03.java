@@ -71,6 +71,7 @@ public class StackTugasMahasiswa03 {
             System.out.println(stack[i].nama + "\t" + stack[i].nim + "\t" + stack[i].kelas); 
         }
         System.out.println("");
+    }
 
     public String konversiDesimalKeBiner(int nilai) {
         StackKonversi03 stackKonv = new StackKonversi03();
